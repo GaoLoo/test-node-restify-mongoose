@@ -8,6 +8,9 @@
   "dependencies": {
     "restify": "4.3.0",
     "mongoose": "~2.13.2",
-    "images":"3.0.0"
+    "images": "3.0.0"
+  },
+  "devDependencies": {
+    "bluebird": "^3.4.6"
   }
 }

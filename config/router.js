@@ -9,7 +9,8 @@ module.exports = function (app) {
     require('./shoppingCart/updataGoods')(app);
     require('./shoppingCart/getGoods')(app);
     require('./shoppingCart/addGoods')(app); //修改商品
-    require('./getGoodsList')(app); // 获取商品列表
+    require('./goods/getGoodsList')(app); // 获取商品列表
+    require('./goods/addGoods')(app); // 获取商品列表
     require('./user/addUser')(app);
     /**
      * @description 图片目录
